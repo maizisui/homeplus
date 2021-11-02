@@ -1,0 +1,32 @@
+<template>
+  <div id="app">
+<!--    <div id="header"><router-link :to="{ name: 'home'}">42House!</router-link></div>-->
+    <router-view/>
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'App',
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#header {
+  width: 100vw;
+  height: 5vh;
+}
+#browse {
+  width: 100vw;
+  height: 95vh;
+}
+</style>
